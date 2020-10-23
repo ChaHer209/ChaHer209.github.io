@@ -52,6 +52,7 @@ body {
 .marketing .col-lg-4 {
   margin-bottom: 1.5rem;
   text-align: center;
+  background: #5a5a5a;
 }
 .marketing .col-lg-4 .marketing h2 {
   font-weight: 400;
@@ -61,7 +62,7 @@ body {
   margin-left: 0.75rem;
 }
 .marketing .col-lg-4 .marketing .col-lg-4 p:a {
-  color: blue;
+  color: 'white';
 }
 /* RESPONSIVE CSS
   -------------------------------------------------- */
