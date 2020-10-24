@@ -4,6 +4,13 @@
 @hero-background-color:white;
 @hover-color:#7c7b74;
 
+.picture-size(@a) when ((@a) >= width= 500px){
+    background-size: cover;
+}
+
+.picture-size(@a) when ((@a) < width= 500px){
+    background-size: contain;
+}
 
 
 .header {
@@ -13,6 +20,7 @@
     &:img {
         width: 100%;
         height: auto;
+        background-image: url("https://assets.pokemon.com/assets//cms2/img/video-games/_tiles/pokemon-cafe-mix/09232020/pokemon-cafe-mix-169-en.jpg">);
         background-size: cover;
     }
     .header .content {
@@ -51,7 +59,7 @@
   .body {
       font-family: @font-family;
   }
-  
+
   .about-me {
     display: grid;
     grid-gap: 1.25em;
