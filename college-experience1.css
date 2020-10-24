@@ -1,0 +1,79 @@
+.header {
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+  /* Center it */
+}
+.header:img {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+}
+.header .header .content {
+  position: absolute;
+  /* Position the background text */
+  bottom: 0;
+  /* At the bottom. Use top:0 to append it to the top */
+  background: rgba(0, 0, 0, 0.5);
+  /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  /* Grey text */
+  width: 100%;
+  /* Full width */
+  padding: 20px;
+  /* Some padding */
+}
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  /* Style the navigation bar links */
+  /* Change color on hover */
+  /* Right-aligned link */
+}
+.navbar .navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+.navbar .navbar a:hover {
+  background-color: #7c7b74;
+  color: white;
+}
+.navbar .navbar a.right {
+  float: right;
+}
+.body {
+  font-family: Tahoma;
+}
+.about-me {
+  display: grid;
+  grid-gap: 1.25em;
+  /* research the grid-template-areas */
+  grid-template-areas: "hero hero price1" "hero hero price2" /* got the grid template from; https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-areas */;
+}
+.hero {
+  grid-area: hero;
+  min-height: 2em;
+  background-size: cover;
+  background-position: bottom right;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  background: white;
+  padding: 6.3125em;
+  padding-left: 1.325em;
+}
+.picture2 {
+  background: white;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  padding-top: 6.125em;
+  padding-right: 30px;
+}

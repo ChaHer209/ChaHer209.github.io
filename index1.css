@@ -60,9 +60,7 @@ body {
 .marketing .col-lg-4 .marketing .col-lg-4 p {
   margin-right: 0.75rem;
   margin-left: 0.75rem;
-}
-.marketing .col-lg-4 .marketing .col-lg-4 p:a {
-  color: 'white';
+
 }
 /* RESPONSIVE CSS
   -------------------------------------------------- */
