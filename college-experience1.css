@@ -7,6 +7,7 @@
 .header:img {
   width: 100%;
   height: auto;
+  background-image: url("https://assets.pokemon.com/assets//cms2/img/video-games/_tiles/pokemon-cafe-mix/09232020/pokemon-cafe-mix-169-en.jpg");
   background-size: cover;
 }
 .header .header .content {
