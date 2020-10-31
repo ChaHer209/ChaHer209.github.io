@@ -1,0 +1,60 @@
+.header {
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+  /* Style the top navigation bar */
+  /* Style the navigation bar links */
+   * .navbar a   
+   *     float: left 
+   *     display: block 
+   *     color: white 
+   *     @include navbar  */
+  /* Change color on hover */
+   * .navbar a:hover   
+   *     background-color: $hover-color 
+   *     color: white  */
+  /* Right-aligned link */
+   * .navbar a.right   float: right  */ }
+  .header:img {
+    width: 100%;
+    height: auto;
+    background-image: url("https://assets.pokemon.com/assets//cms2/img/video-games/_tiles/pokemon-cafe-mix/09232020/pokemon-cafe-mix-169-en.jpg");
+    background-size: cover; }
+  .header .header .content {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px; }
+  .header .navbar {
+    overflow: hidden;
+    background-color: #333; }
+  .header .body {
+    font-family: Tahoma; }
+  .header .about-me {
+    display: grid;
+    grid-gap: 1.25em;
+    /* research the grid-template-areas */ }
+  .header .hero {
+    grid-area: hero;
+    min-height: 2em;
+    background-size: cover;
+    background-position: bottom right;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    background: white;
+    padding: 6.3125em;
+    padding-left: 1.325em; }
+  .header .picture2 {
+    background: white;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    padding-top: 6.125em;
+    padding-right: 30px; }
+
+/*# sourceMappingURL=college-experience2.css.map */
