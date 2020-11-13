@@ -1,0 +1,71 @@
+.body {
+  font-family: Tahoma; }
+
+.header {
+  text-align: center;
+  position: relative;
+  margin: 0 auto; }
+
+.header .content {
+  position: absolute;
+  bottom: 0;
+  background: black;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px; }
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333; }
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none; }
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #cebc31;
+  color: white; }
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right; }
+
+.carousel-slide {
+  padding: 5px;
+  max-width: 700px;
+  max-height: 700px; }
+
+/* Column container */
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%;
+  flex: 30%;
+  background-color: white;
+  padding: 20px; }
+
+/* Main column */
+.main {
+  -ms-flex: 70%;
+  flex: 70%;
+  background-color: white;
+  padding: 35px;
+  padding-right: 190px; }
+
+/* needs to make the carousel smaller  */
+
+/*# sourceMappingURL=about-me1.css.map */

@@ -35,7 +35,11 @@
   .header .about-me {
     display: grid;
     grid-gap: 1.25em;
-    /* research the grid-template-areas */ }
+    /* research the grid-template-areas */
+     * grid-template-areas:
+     *  "hero hero price1"
+     *  "hero hero price2"
+     *  /* got the grid template from  https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-areas */ }
   .header .hero {
     grid-area: hero;
     min-height: 2em;
